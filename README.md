@@ -64,25 +64,22 @@ API de gestión de inventarios con **Swagger** y **Actuator**, migraciones con *
 - **SEGURIDAD**
   - **En implementación:** Spring Security (JWT, rol “encargado”)
 
----
+--- SE ESTA IMPLEMENTANDO ACTUALMENTE POOL DE CONEXIONES Y SPRING SECURITY. A TRAVES DE SLICES - WALKING SKELETON.
 
 ## 🧠 Qué demuestra este proyecto
 - Diseño de **API REST** documentada con **Swagger/OpenAPI**
-- Observabilidad mínima: **Actuator** (`/health`) y *build info* (por perfiles)
+- Observabilidad mínima: **Actuator** (`/health`) 
 - Persistencia con **JPA/Hibernate** + **Flyway**
 - Generación de **PDF** (Apache PDFBox) para flujos operativos
-- Perfiles configurados: `local` y `supabase` (demo en nube)
-- **CI** con GitHub Actions (build en cada push/PR)
+- Despliegue de aplicacion en render, Update a traves de GitHut, CI-CD/ Manejo de Jav Core.
+- **CI** con GitHub Actions (build en cada push/PR) (actualizado por foto, debido a desarrollo privado)
+- despliege en Render. 
+- 
 
 ---
 
 ## 🧱 Stack
 Java 17 • Spring Boot 3 • Spring Web • Spring Data JPA • PostgreSQL/MySQL • Flyway • MapStruct • Apache PDFBox • Actuator • OpenAPI (springdoc)
 
----
 
-## ▶️ Ejecutar en local
-1. Configura DB en `application-local.yml`.  
-2. Arranca con el perfil `local`:
-   ```bash
-   mvn clean spring-boot:run -Dspring.profiles.active=local
+
