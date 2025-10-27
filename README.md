@@ -17,10 +17,8 @@ API de gestión de inventarios con **Swagger** y **Actuator**, migraciones con *
 - PassCode :  Stark
 - **Swagger:** https://inventorymanagementsystembackend-to9c.onrender.com/swagger-ui/index.html
 - **Health:** https://inventorymanagementsystembackend-to9c.onrender.com/actuator/health
-- **Swagger:** https://github.com/PabloByte/inventorymanagementsystem/blob/main/docs/swagger.png
-- **Arquitectura:** https://github.com/PabloByte/inventorymanagementsystem/blob/main/docs/architecture.png
-- **Entities:** https://github.com/PabloByte/inventorymanagementsystem/blob/main/docs/entities.png
-- **Process:** https://github.com/PabloByte/inventorymanagementsystem/blob/main/docs/process.png
+
+
 
 ---
 
