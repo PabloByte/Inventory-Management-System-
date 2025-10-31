@@ -18,7 +18,8 @@ Desplegada en vps Hostinger, con Base de datos Postgre, migraciones flyway.
 - PassCode :  Stark
 - **Swagger:** https://72-61-2-221.sslip.io/swagger-ui/index.html
 - **Health:** https://72-61-2-221.sslip.io/actuator/health
-
+- **Micrometer:** https://72-61-2-221.sslip.io/actuator/metrics/http.server.requests
+- **Actuator:** https://72-61-2-221.sslip.io/actuator/metrics/http.server.requests?tag=uri:/api/suppliers/showAllSuppliers&tag=method:GET  
 
 
 ---
