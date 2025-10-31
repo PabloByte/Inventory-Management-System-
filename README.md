@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/PabloByte/inventorymanagementsystem/actions/workflows/ci.yml/badge.svg)]
 [(https://github.com/PabloByte/inventorymanagementsystem/actions/workflows/ci.yml)]
-![Java 17](https://img.shields.io/badge/Java-17-red)
+![Java 21](https://img.shields.io/badge/Java-21-red)
 ![Spring Boot 3](https://img.shields.io/badge/Spring_Boot-3.x-brightgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -11,12 +11,13 @@ API de gestión de inventarios con **Swagger** y **Actuator**, migraciones con *
 > **Nota demo (plan gratis):** el primer request puede demorar por *cold start*. Verifique estado en **/actuator/health** (`UP`).
 
 ## 🚀 Demo
-- **API base:** https://inventorymanagementsystem-w4nu.onrender.com
+Desplegada en vps Hostinger, con Base de datos Postgre, migraciones flyway.
+- **API base:** https://72-61-2-221.sslip.io/pages/login.html
 
 - User : StarkIngenieria
 - PassCode :  Stark
-- **Swagger:** https://inventorymanagementsystembackend-to9c.onrender.com/swagger-ui/index.html
-- **Health:** https://inventorymanagementsystembackend-to9c.onrender.com/actuator/health
+- **Swagger:** https://72-61-2-221.sslip.io/swagger-ui/index.html
+- **Health:** https://72-61-2-221.sslip.io/actuator/health
 
 
 
@@ -50,7 +51,9 @@ API de gestión de inventarios con **Swagger** y **Actuator**, migraciones con *
   - Cancela sin afectar inventario
 
 - **SUPPLIER**
-  - Crear proveedor (pendiente CRUD completo + NIT vía Flyway)
+  - Crear proveedor
+  - -editar proveedor
+  - ver proveedores con productos
 
 - **STOCK**: autogestionado  
 - **INVENTORY LEDGER**: autogestionado
@@ -71,15 +74,15 @@ API de gestión de inventarios con **Swagger** y **Actuator**, migraciones con *
 - Observabilidad mínima: **Actuator** (`/health`) 
 - Persistencia con **JPA/Hibernate** + **Flyway**
 - Generación de **PDF** (Apache PDFBox) para flujos operativos
-- Despliegue de aplicacion en render, Update a traves de GitHut, CI-CD/ Manejo de Jav Core.
+- Despliegue de aplicacion en VPS hostinger, ambiente UBUNTU,  Update a traves de GitHut, CI-CD/ Manejo de Java Core.
 - **CI** con GitHub Actions (build en cada push/PR) (actualizado por foto, debido a desarrollo privado)
-- despliege en Render. 
+
 - 
 
 ---
 
 ## 🧱 Stack
-Java 17 • Spring Boot 3 • Spring Web • Spring Data JPA • PostgreSQL/MySQL • Flyway • MapStruct • Apache PDFBox • Actuator • OpenAPI (springdoc)
+Java 21 • Spring Boot 3 • Spring Web • Spring Data JPA • PostgreSQL/MySQL • Flyway • MapStruct • Apache PDFBox • Actuator • OpenAPI (springdoc)
 
 
 
