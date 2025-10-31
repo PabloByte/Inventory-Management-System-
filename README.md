@@ -1,4 +1,4 @@
-# Inventory Management System — Spring Boot 3 (Java 17)
+# Inventory Management System — Spring Boot 3 (Java 21)
 
 [![CI](https://github.com/PabloByte/inventorymanagementsystem/actions/workflows/ci.yml/badge.svg)]
 [(https://github.com/PabloByte/inventorymanagementsystem/actions/workflows/ci.yml)]
