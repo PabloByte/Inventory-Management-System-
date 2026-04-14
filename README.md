@@ -22,8 +22,8 @@ Aplicación desplegada en **VPS Linux (Ubuntu)** con **PostgreSQL**, migraciones
 - - **Actuator:** http://173.212.214.15.sslip.io/actuator/metrics/http.server.requests?tag=uri:/api/suppliers/showAllSuppliers&tag=method:GET
 
 ### Credenciales demo
-- **Usuario demo:** demo.inventory@demo.local O  arnold2007@hotmail.com
-- **Contraseña:** DemoInventory2026! O Liliana5813@
+- **Usuario demo:** demo.inventory@demo.local //  arnold2007@hotmail.com
+- **Contraseña:** DemoInventory2026! // Liliana5813@
 
 ---
 
@@ -101,6 +101,7 @@ Aplicación desplegada en **VPS Linux (Ubuntu)** con **PostgreSQL**, migraciones
 - Ampliación de reglas de autorización por módulo
 - Más métricas y observabilidad
 - Pruebas automatizadas y endurecimiento del entorno productivo
+- Implementacion de MCP para lectura rapida de creacion de productos a travez de facturas o ordenes de compra generadas
 
 ---
 
@@ -125,14 +126,19 @@ El sistema ya cuenta con una base funcional de seguridad construida con **Spring
 ---
 
 ## Qué demuestra este proyecto
-
+- Uso de contenedores docker para el empaquetado y despliegue
+- uso de SSH para conexiones
+- 
 - Diseño e implementación de una **API REST** con Spring Boot
 - Seguridad con **Spring Security**, **JWT**, **BCrypt** y autorización por roles
+- Uso de DTOs para el manejo de entrada y salida de informacion sensible a travez de los endpoints
 - Documentación técnica con **Swagger / OpenAPI**
 - Persistencia con **Spring Data JPA**, **Hibernate** y **Flyway**
 - Generación de documentos operativos en **PDF** con Apache PDFBox
 - Observabilidad con **Actuator** y **Micrometer**
 - Despliegue real en **VPS Ubuntu**
+- validaciones personalizadas en Bases de datos
+- Excepciones personalizadas
 - Integración continua con **GitHub Actions**
 - Aplicación de buenas prácticas de backend orientadas a trazabilidad, mantenibilidad y evolución progresiva
 
@@ -162,7 +168,11 @@ El sistema ya cuenta con una base funcional de seguridad construida con **Spring
 
 ## Arquitectura y enfoque
 
-El proyecto sigue una arquitectura por capas, separando responsabilidades entre:
+El proyecto está desarrollado como un **monolito modular**, manteniendo la aplicación dentro de una sola base de código desplegable, pero separando responsabilidades por módulos funcionales y capas internas.
+
+Este enfoque permite organizar el sistema de forma más mantenible, facilitando la evolución de funcionalidades como productos, categorías, proveedores, órdenes entrantes, recibos, seguridad y trazabilidad, sin introducir complejidad innecesaria de una arquitectura distribuida.
+
+A nivel interno, el sistema se apoya en una separación clara entre:
 
 - controladores
 - servicios
@@ -175,11 +185,13 @@ El proyecto sigue una arquitectura por capas, separando responsabilidades entre:
 
 El enfoque prioriza:
 
+- modularidad dentro de un único despliegue
 - trazabilidad operativa
 - separación de responsabilidades
 - claridad en contratos API
-- seguridad progresiva
+- seguridad
 - facilidad de mantenimiento
+- evolución progresiva del sistema
 - despliegue reproducible
 
 ---
@@ -204,7 +216,7 @@ Flujo actual:
 - reforzar observabilidad
 - seguir endureciendo reglas de autorización
 - mejorar experiencia visual del frontend
-
+-aplicar CI/CD profesional , testing unitario
 ---
 
 ## Licencia
