@@ -12,14 +12,14 @@ API de gestión de inventarios con **Swagger** y **Actuator**, migraciones con *
 
 ## 🚀 Demo
 Desplegada en vps Hostinger, con Base de datos Postgre, migraciones flyway.
-- **API base:** https://72-61-2-221.sslip.io/pages/login.html
+- **API base:** http://173.212.214.15:8080/pages/login.html
 
-- User : StarkIngenieria
-- PassCode :  Stark
-- **Swagger:** https://72-61-2-221.sslip.io/swagger-ui/index.html
-- **Health:** https://72-61-2-221.sslip.io/actuator/health
-- **Micrometer:** https://72-61-2-221.sslip.io/actuator/metrics/http.server.requests
-- **Actuator:** https://72-61-2-221.sslip.io/actuator/metrics/http.server.requests?tag=uri:/api/suppliers/showAllSuppliers&tag=method:GET  
+- User : arnold2007@hotmail.com
+- PassCode :  Liliana5813@
+- **Swagger:** http://173.212.214.15.sslip.io/swagger-ui/index.html
+- **Health:** http://173.212.214.15.sslip.io/actuator/health
+- **Micrometer:** http://173.212.214.15.sslip.io/actuator/metrics/http.server.requests
+- **Actuator:** http://173.212.214.15.sslip.io/actuator/metrics/http.server.requests?tag=uri:/api/suppliers/showAllSuppliers&tag=method:GET  
 
 
 ---
