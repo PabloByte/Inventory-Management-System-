@@ -16,10 +16,8 @@ El proyecto incluye documentación con **Swagger/OpenAPI**, observabilidad con *
 Aplicación desplegada en **VPS Linux (Ubuntu)** con **PostgreSQL**, migraciones con **Flyway** y actualización del proyecto a través de **GitHub**.
 
 - **Aplicación web:** http://173.212.214.15:8080/pages/login.html
-- **Swagger UI:** http://173.212.214.15.sslip.io/swagger-ui/index.html
-- **Health check:** http://173.212.214.15.sslip.io/actuator/health
-- **Métricas HTTP:** http://173.212.214.15.sslip.io/actuator/metrics/http.server.requests
-- - **Actuator:** http://173.212.214.15.sslip.io/actuator/metrics/http.server.requests?tag=uri:/api/suppliers/showAllSuppliers&tag=method:GET
+- **Swagger UI:** http://173.212.214.15:8080/swagger-ui/index.html
+- **Health check:** http://173.212.214.15:8080/actuator/healt
 
 ### Credenciales demo
 - **Usuario demo:** demo.inventory@demo.local //  arnold2007@hotmail.com
