@@ -1,11 +1,11 @@
-# Inventory Management System — Spring Boot 3 / Java 21
+# Inventory Management System — Spring Boot 3 / Java 17
 
 [![CI](https://github.com/PabloByte/inventorymanagementsystem/actions/workflows/ci.yml/badge.svg)](https://github.com/PabloByte/inventorymanagementsystem/actions/workflows/ci.yml)
 ![Java 21](https://img.shields.io/badge/Java-21-red)
 ![Spring Boot 3](https://img.shields.io/badge/Spring_Boot-3.x-brightgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Sistema de gestión de inventarios desarrollado con **Spring Boot 3** y **Java 21**, orientado a trazabilidad operativa, seguridad, mantenibilidad y despliegue real en infraestructura Linux.
+Sistema de gestión de inventarios desarrollado con **Spring Boot 3** y **Java 17**, orientado a trazabilidad operativa, seguridad, mantenibilidad y despliegue real en infraestructura Linux.
 
 El proyecto incluye documentación con **Swagger/OpenAPI**, observabilidad con **Actuator/Micrometer**, migraciones versionadas con **Flyway**, generación de **PDF** para órdenes y recibos, y autenticación/autorización con **Spring Security + JWT**.
 
@@ -146,7 +146,7 @@ El sistema ya cuenta con una base funcional de seguridad construida con **Spring
 
 ## Stack tecnológico
 
-- **Java 21**
+- **Java 17**
 - **Spring Boot 3**
 - **Spring Web**
 - **Spring Data JPA**
