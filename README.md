@@ -20,8 +20,8 @@ Aplicación desplegada en **VPS Linux (Ubuntu)** con **PostgreSQL**, migraciones
 - **Health check:** https://atlasinventorymanagementsystem.lat/actuator/health
 
 ### Credenciales demo
-- **Usuario demo:** demo.inventory@demo.local //  arnold2007@hotmail.com
-- **Contraseña:** DemoInventory2026! // Liliana5813@
+- **Usuario demo:** correoprueba@hotmail.com
+- **Contraseña:** Demousuario5813
 
 ---
 
